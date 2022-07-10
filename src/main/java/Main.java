@@ -1,10 +1,11 @@
-import ru.netology.sqr.java6.service;
+import ru.netology.sqr.SQRService;
 
 public class Main {
 
+
     public static void main(String[] args) {
-        SqrService service = new SqrService();
-        System.out.println(service.calcSqr());
+        SQRService service = new SQRService();
+        System.out.println();
     }
 }
 
