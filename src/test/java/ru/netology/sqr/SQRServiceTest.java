@@ -12,7 +12,7 @@ public class SQRServiceTest {
         SQRService service = new SQRService();
 
         int actual = service.calcSqr(400, 500);
-        int expected = 3;
+        int expected = 77;
 
 
         assertEquals(actual, expected);
@@ -23,7 +23,7 @@ public class SQRServiceTest {
     public void rangeSecond() {
         SQRService service = new SQRService();
         int actual = service.calcSqr(500, 600);
-        int expected = 2;
+        int expected = 75;
 
         assertEquals(actual, expected);
     }
